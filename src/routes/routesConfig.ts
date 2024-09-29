@@ -1,13 +1,13 @@
-import React from "react";
+import React from 'react';
 
-import DefaultLayout from "@/layouts/Default";
-import { RouteConfig } from "@/types";
+import DefaultLayout from '@/layouts/Default';
+import { RouteConfig } from '@/types';
 
-const Dashboard = React.lazy(() => import("@/pages/Dashboard"));
+const Dashboard = React.lazy(() => import('@/pages/Dashboard'));
 
 export const routes: RouteConfig[] = [
   {
-    path: "/",
+    path: '/',
     page: Dashboard,
     layout: DefaultLayout,
   },

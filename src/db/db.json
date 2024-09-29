@@ -1,65 +1,141 @@
 {
   "social-network-list": [
     {
-      "id": 1,
-      "name": "Facebook",
+      "id": "1",
+      "accountName": "Valentyn Hrytsuk",
+      "accountImage": "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "engagementRate": 2.5,
       "followers": 12000,
-      "engagementRate": 4.3,
+      "following": 500,
+      "follower": 12000,
+      "countOfPosts": 150,
+      "socialMediaName": "Facebook",
+      "weeklyLikes": 1500,
+      "weeklyComments": 200,
+      "weeklyFollowing": 50,
+      "weeklyFollower": 100,
       "recentPosts": [
         {
           "postId": 1,
-          "content": "New campaign launch",
-          "likes": 200,
-          "comments": 15
+          "content": "Check out our new features! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "likes": 500,
+          "comments": 50
         },
         {
           "postId": 2,
-          "content": "Holiday season sale",
-          "likes": 150,
-          "comments": 10
+          "content": "Join our community event! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "likes": 600,
+          "comments": 60
+        }
+      ],
+      "lastComments": [
+        {
+          "comment": "Great update!",
+          "author": "John Doe",
+          "authorPhoto": "https://images.freeimages.com/variants/CNtsSoFF5JRuJ781QTWmFXXr/f4a36f6589a0e50e702740b15352bc00e4bfaf6f58bd4db850e167794d05993d"
+        },
+        {
+          "comment": "Loving the new features.",
+          "author": "Jane Smith",
+          "authorPhoto": "https://images.freeimages.com/variants/CNtsSoFF5JRuJ781QTWmFXXr/f4a36f6589a0e50e702740b15352bc00e4bfaf6f58bd4db850e167794d05993d"
+        },
+        {
+          "comment": "Can't wait to try it out.",
+          "author": "Alice Johnson",
+          "authorPhoto": "https://images.freeimages.com/variants/CNtsSoFF5JRuJ781QTWmFXXr/f4a36f6589a0e50e702740b15352bc00e4bfaf6f58bd4db850e167794d05993d"
         }
       ]
     },
     {
-      "id": 2,
-      "name": "Instagram",
-      "followers": 8000,
-      "engagementRate": 7.2,
+      "id": "3",
+      "accountName": "Valentyn Hrytsuk",
+      "accountImage": "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "engagementRate": 2.5,
+      "followers": 9000,
+      "following": 300,
+      "follower": 9000,
+      "countOfPosts": 200,
+      "socialMediaName": "Twitter",
+      "weeklyLikes": 1200,
+      "weeklyComments": 150,
+      "weeklyFollowing": 30,
+      "weeklyFollower": 80,
       "recentPosts": [
         {
           "postId": 1,
-          "content": "Summer Collection",
-          "likes": 300,
-          "comments": 25
-        },
-        {
-          "postId": 2,
-          "content": "Behind the Scenes",
+          "content": "New tweet! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
           "likes": 400,
           "comments": 40
+        },
+        {
+          "postId": 2,
+          "content": "Follow us for updates! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "likes": 500,
+          "comments": 50
+        }
+      ],
+      "lastComments": [
+        {
+          "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+          "author": "John Doe",
+          "authorPhoto": "https://images.freeimages.com/variants/CNtsSoFF5JRuJ781QTWmFXXr/f4a36f6589a0e50e702740b15352bc00e4bfaf6f58bd4db850e167794d05993d"
+        },
+        {
+          "comment": "Loving the new features.",
+          "author": "Jane Smith",
+          "authorPhoto": "https://cdn.create.vista.com/api/media/small/182461084/stock-photo-anonymous"
+        },
+        {
+          "comment": "Can't wait to try it out.",
+          "author": "Alice Johnson",
+          "authorPhoto": "https://images.freeimages.com/variants/CNtsSoFF5JRuJ781QTWmFXXr/f4a36f6589a0e50e702740b15352bc00e4bfaf6f58bd4db850e167794d05993d"
         }
       ]
     },
     {
-      "id": "2024-09-26T19:52:51.379Z",
-      "name": "",
-      "followers": 0,
-      "engagementRate": 0,
-      "recentPosts": []
-    },
-    {
-      "id": "2024-09-26T19:52:54.626Z",
-      "name": "",
-      "followers": 0,
-      "engagementRate": 0,
-      "recentPosts": []
-    },
-    {
-      "id": "2024-09-26T19:52:56.286Z",
-      "name": "",
-      "followers": 0,
-      "engagementRate": 0,
-      "recentPosts": []
+      "id": "2024-09-29T20:21:33.333Z",
+      "socialMediaName": "Twitter",
+      "accountName": "Daniel Cropcker123",
+      "followers": 123123,
+      "following": 123123,
+      "engagementRate": 3,
+      "accountImage": "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "countOfPosts": 31,
+      "weeklyLikes": 40,
+      "weeklyComments": 17,
+      "weeklyFollowing": 50,
+      "weeklyFollower": 266,
+      "recentPosts": [
+        {
+          "postId": 1,
+          "content": "Check out our new features! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "likes": 500,
+          "comments": 50
+        },
+        {
+          "postId": 2,
+          "content": "Join our community event! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "likes": 600,
+          "comments": 60
+        }
+      ],
+      "lastComments": [
+        {
+          "comment": "Great update!",
+          "author": "John Doe",
+          "authorPhoto": "https://images.freeimages.com/variants/CNtsSoFF5JRuJ781QTWmFXXr/f4a36f6589a0e50e702740b15352bc00e4bfaf6f58bd4db850e167794d05993d"
+        },
+        {
+          "comment": "Loving the new features.",
+          "author": "Jane Smith",
+          "authorPhoto": "https://images.freeimages.com/variants/CNtsSoFF5JRuJ781QTWmFXXr/f4a36f6589a0e50e702740b15352bc00e4bfaf6f58bd4db850e167794d05993d"
+        },
+        {
+          "comment": "Can't wait to try it out.",
+          "author": "Alice Johnson",
+          "authorPhoto": "https://images.freeimages.com/variants/CNtsSoFF5JRuJ781QTWmFXXr/f4a36f6589a0e50e702740b15352bc00e4bfaf6f58bd4db850e167794d05993d"
+        }
+      ]
     }
   ]
 }

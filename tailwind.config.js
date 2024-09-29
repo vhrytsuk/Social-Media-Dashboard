@@ -6,6 +6,9 @@ export default {
       backgroundColor: {
         "default-page": "#28282B",
       },
+      borderColor: {
+        "gray-1": "#7e7f87",
+      },
     },
   },
   plugins: [],
