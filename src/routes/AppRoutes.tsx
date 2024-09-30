@@ -1,9 +1,9 @@
 import { Suspense, type FC } from 'react';
 import {
+  Navigate,
+  Route,
   BrowserRouter as Router,
   Routes,
-  Route,
-  Navigate,
 } from 'react-router-dom';
 
 import Loader from '@/components/common/Loader';
