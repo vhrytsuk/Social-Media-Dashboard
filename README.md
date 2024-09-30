@@ -39,47 +39,76 @@ To run this project locally, ensure you have the following tools installed on yo
    ```
 
 3. **Install project dependencies**:
-
    ```bash
    npm install or yarn install
-
    ```
 
-# Running the Project
+## Running the Project
 
-This project uses Vite as the front-end bundler and json-server to mock API responses. Follow these steps to get the project running.
+This project uses **Vite** as the front-end bundler and **json-server** to mock API responses. Follow these steps to get the project running.
 
-1. **Start JSON Server**:
+### 1. Start JSON Server
 
-   ```bash
-   npx json-server --watch src/db/db.json --port 3000
+`json-server` is used to simulate a REST API by serving data from `db.json`. Run the following command to start the JSON server:
 
-   ```
+```md
+## Running the Project
 
-2. **Start the Vite Development Server**:
+This project uses **Vite** as the front-end bundler and **json-server** to mock API responses. Follow these steps to get the project running.
+```
 
-   ```bash
-   npm run dev
+### 1. Start JSON Server
 
-   ```
+`json-server` is used to simulate a REST API by serving data from `db.json`. Run the following command to start the JSON server:
 
-3. **Build for Production**:
+```bash
+npx json-server --watch src/db/db.json --port 3000
+```
 
-   ```bash
-   npm run build
+### 7. **Start Vite Development Server**
 
+````md
+### 2. Start the Vite Development Server
 
-   ### Key Sections:
-   ```
+Once the JSON server is running, you can start the Vite development server to serve the front-end.
 
-- **Getting Started**: Explains the prerequisites and how to set up the project locally.
-- **Installation**: Details the installation steps for both `npm` and `yarn`.
-- **Running the Project**: Instructions for starting both the JSON server and the Vite development server, as well as how to build and preview the production build.
-- **Linting and Formatting**: Instructions for running and fixing linting issues using ESLint and Prettier.
-- **Project Structure**: A quick overview of the project's file structure to guide contributors.
-- **Dependencies**: Lists the core and dev dependencies used in the project.
-- **License**: Placeholder for your project's license (e.g., MIT).
+```bash
+npm run de
+```
+````
 
-This `README.md` file provides clear instructions for setting up and running your project, as well as ensuring code quality with linting and formatting tools.
+### 8. **Build for Production**
 
-Feel free to copy this file as `README.md` into your project repository. Let me know if you need any further adjustments!
+````md
+### 3. Build for Production
+
+To create an optimized production build of the project:
+
+```bash
+npm run build
+```
+````
+
+## Dependencies
+
+### Core Dependencies:
+
+- **React**: Front-end library
+- **React-DOM**: DOM rendering for React
+- **React-Router-DOM**: For routing
+- **Redux Toolkit**: For state management
+- **Material-UI**: Component library
+- **Formik & Yup**: Form handling and validation
+- **Axios**: HTTP client for API calls
+
+### Dev Dependencies:
+
+- **Vite**: Front-end build tool
+- **TypeScript**: TypeScript support
+- **ESLint**: Linting tool
+- **Prettier**: Code formatter
+- **json-server**: Mock REST API
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
