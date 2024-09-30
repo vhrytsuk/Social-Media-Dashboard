@@ -2,7 +2,7 @@ import { Typography } from '@mui/material';
 import React from 'react';
 import { useSelector } from 'react-redux';
 
-import { RootState } from '@/app/store';
+import { RootState } from '@/store';
 
 import CountSection from './CountSection';
 import SocialAccountCard from './SocialAccountCard';
@@ -16,7 +16,7 @@ const GeneralAccountInfo: React.FC = () => {
     selectedSocialAccount || {};
 
   if (!selectedSocialAccount) {
-    return <p>Select social media</p>;
+    return <p>You need select social media</p>;
   }
 
   return (

@@ -23,9 +23,8 @@ const socialAccountSlice = createSlice({
   reducers: {
     selectSocialAccount: (state, action) => {
       state.selectedSocialAccount =
-        state.socialAccounts.find(
-          (account) => account.socialMediaName === action.payload,
-        ) ?? null;
+        state.socialAccounts.find((account) => account.id === action.payload) ??
+        null;
     },
   },
   extraReducers: (builder) => {

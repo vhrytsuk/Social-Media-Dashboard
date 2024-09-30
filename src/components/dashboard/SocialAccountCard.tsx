@@ -30,7 +30,7 @@ const SocialAccountCard: React.FC<SocialAccountCardProps> = ({
       <p className="text-center text-xl font-semibold mt-4 text-white">
         {accountName}
       </p>
-      <div className="flex justify-around mt-4">
+      <div className="grid grid-cols-2 gap-4 md:flex md:justify-around mt-4">
         <div className="text-center">
           <span className="block text-sm mb-2">Posts</span>
           <span className="block text-xl font-bold text-white">

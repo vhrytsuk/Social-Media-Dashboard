@@ -6,31 +6,34 @@ import { Groups2 } from '@mui/icons-material';
 
 import Loader from '@/components/common/Loader';
 import SocialNetworkIcon from '@/components/common/SocialNetworkIcon';
-import { useAppDispatch } from '@/hooks/useTypedSelector';
+import { useSocialAccountActions } from '@/hooks/dashboard/useSocialAccountActions';
 import { RootState } from '@/store/index';
-import { selectSocialAccount } from '@/store/socialAccount/socialAccountSlice';
-import { fetchSocialAccounts } from '@/store/socialAccount/socialAccountThunks';
 import { scrollGeneralStylleMU } from '@/utils/materialUiStyles';
 import reduceNumberCharacter from '@/utils/reduceNumberCharacter';
 import DeleteAccount from './DeleteAccount';
 import UpdateAccount from './UpdateAccount';
 
 const SocialAccountList: React.FC = () => {
-  const dispatch = useAppDispatch();
-
   const { socialAccounts, status, error } = useSelector(
     (state: RootState) => state.socialAccounts,
   );
 
-  const handleButtonClick = (socialMedia: string) => {
-    dispatch(selectSocialAccount(socialMedia));
+  const { selectSocialAccountById, getAllSocialAccounts } =
+    useSocialAccountActions();
+
+  const handleButtonClick = (id: string) => {
+    selectSocialAccountById(id);
   };
 
   useEffect(() => {
     if (status === 'idle') {
-      dispatch(fetchSocialAccounts());
+      getAllSocialAccounts();
     }
-  }, [dispatch, status]);
+
+    if (status === 'succeeded' && socialAccounts.length > 0) {
+      selectSocialAccountById(socialAccounts[0].id);
+    }
+  }, [status, socialAccounts, getAllSocialAccounts, selectSocialAccountById]);
 
   if (status === 'failed') {
     return <div>Error: {error}</div>;
@@ -60,7 +63,7 @@ const SocialAccountList: React.FC = () => {
                     flexDirection: 'column',
                     alignItems: 'self-start',
                   }}
-                  onClick={() => handleButtonClick(socialMediaName)}
+                  onClick={() => handleButtonClick(id)}
                 >
                   {socialMediaName}
                   <span className="text-xs text-white">{accountName}</span>
