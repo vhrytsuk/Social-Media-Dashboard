@@ -2,10 +2,9 @@ import { Typography } from '@mui/material';
 import React from 'react';
 import { useSelector } from 'react-redux';
 
+import CountSection from '@/components/dashboard/CountSection';
+import SocialAccountCard from '@/components/dashboard/SocialAccountCard';
 import { RootState } from '@/store';
-
-import CountSection from './CountSection';
-import SocialAccountCard from './SocialAccountCard';
 
 const GeneralAccountInfo: React.FC = () => {
   const { selectedSocialAccount } = useSelector(

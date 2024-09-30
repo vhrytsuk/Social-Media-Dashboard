@@ -2,10 +2,10 @@ import { DeleteSweep } from '@mui/icons-material';
 import React from 'react';
 
 import ButtonOnlyIcon from '@/components/common/ButtonOnlyIcon';
+import DeleteAccountConfirmationModal from '@/components/dashboard/DeleteAccountConfirmationModal';
 import { useModalActions } from '@/hooks/useModalActions';
 import { useAppDispatch } from '@/hooks/useTypedSelector';
 import { removeSocialAccount } from '@/store/socialAccount/socialAccountThunks';
-import DeleteAccountConfirmationModal from './DeleteAccountConfirmationModal';
 
 const DeleteAccount: React.FC<{ id: string }> = ({ id }) => {
   const dispatch = useAppDispatch();

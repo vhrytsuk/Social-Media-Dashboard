@@ -6,12 +6,12 @@ import { Groups2 } from '@mui/icons-material';
 
 import Loader from '@/components/common/Loader';
 import SocialNetworkIcon from '@/components/common/SocialNetworkIcon';
+import DeleteAccount from '@/components/dashboard/DeleteAccount';
+import UpdateAccount from '@/components/dashboard/UpdateAccount';
 import { useSocialAccountActions } from '@/hooks/dashboard/useSocialAccountActions';
 import { RootState } from '@/store/index';
 import { scrollGeneralStylleMU } from '@/utils/materialUiStyles';
 import reduceNumberCharacter from '@/utils/reduceNumberCharacter';
-import DeleteAccount from './DeleteAccount';
-import UpdateAccount from './UpdateAccount';
 
 const SocialAccountList: React.FC = () => {
   const { socialAccounts, status, error } = useSelector(

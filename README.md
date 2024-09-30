@@ -34,13 +34,15 @@ To run this project locally, ensure you have the following tools installed on yo
    cd social-media-dashboard-ts
    ```
 
-3. **Install project dependencies**:
+3. Install project dependencies:
 
    ```bash
-   npm install or yarn install
+   npm install
+   # or
+   yarn install
    ```
 
-## **Running the Project**
+## Running the Project
 
 ### 1. Start JSON Server
 
